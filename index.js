@@ -297,7 +297,7 @@ function findFlagUrlByPredicate(predicate) {
 		return "";
 	}
 
-    const countryInfo = countryList.find(predicate) || { flag: ""};
+    const countryInfo = countries.find(predicate) || { flag: ""};
 
 	return countryInfo.flag;
 }
@@ -307,8 +307,8 @@ module.exports = {
     
     findFlagUrlByCountryName: function(countryName) {
         const countryInfo =
-            countryList.find(({ name }) => name === countryName) ||
-            countryList.find(({ altSpellings }) => altSpellings && altSpellings.some(item => item === countryName));
+            countries.find(({ name }) => name === countryName) ||
+            countries.find(({ altSpellings }) => altSpellings && altSpellings.some(item => item === countryName));
     
         if (countryInfo) {
             return countryInfo.flag || "";
