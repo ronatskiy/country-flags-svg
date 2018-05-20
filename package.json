@@ -1,6 +1,6 @@
 {
   "name": "country-flags-svg",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A list of countries with url links to a svg image which you can simply use in your web application",
   "main": "index.js",
   "scripts": {
