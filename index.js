@@ -292,30 +292,40 @@ const countries = [
 	},
 ];
 
-function findFlagUrlByNationality(nationality) {
-	const countryInfo = countryList.find(({ demonym }) => demonym === nationality);
-
-	if (countryInfo) {
-		return countryInfo.flag || "";
+function findFlagUrlByPredicate(predicate) {
+	if (!predicate) {
+		return "";
 	}
 
-	return "";
-}
+    const countryInfo = countryList.find(predicate) || { flag: ""};
 
-function findFlagUrlByCountryName(countryName) {
-	const countryInfo =
-		countryList.find(({ name }) => name === countryName) ||
-		countryList.find(({ altSpellings }) => altSpellings && altSpellings.some(item => item === countryName));
-
-	if (countryInfo) {
-		return countryInfo.flag || "";
-	}
-
-	return "";
+	return countryInfo.flag;
 }
 
 module.exports = {
     countries,
-    findFlagUrlByNationality,
-    findFlagUrlByCountryName,
-}
+    
+    findFlagUrlByCountryName(countryName) {
+        const countryInfo =
+            countryList.find(({ name }) => name === countryName) ||
+            countryList.find(({ altSpellings }) => altSpellings && altSpellings.some(item => item === countryName));
+    
+        if (countryInfo) {
+            return countryInfo.flag || "";
+        }
+    
+        return "";
+    },
+
+    findFlagUrlByNationality(nationality) {
+        return findFlagUrlByPredicate(({ demonym }) => demonym === nationality);
+    },
+
+    findFlagUrlByIso2Code(iso2Code) {
+        return findFlagUrlByPredicate(({ iso2 }) => iso2 === iso2Code);
+    },
+
+    findFlagUrlByIso3Code(iso3Code) {
+        return findFlagUrlByPredicate(({ iso3 }) => iso3 === iso3Code);
+    }
+};
