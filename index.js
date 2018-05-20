@@ -303,9 +303,9 @@ function findFlagUrlByPredicate(predicate) {
 }
 
 module.exports = {
-    countries,
+    countries: countries,
     
-    findFlagUrlByCountryName(countryName) {
+    findFlagUrlByCountryName: function(countryName) {
         const countryInfo =
             countryList.find(({ name }) => name === countryName) ||
             countryList.find(({ altSpellings }) => altSpellings && altSpellings.some(item => item === countryName));
@@ -317,15 +317,15 @@ module.exports = {
         return "";
     },
 
-    findFlagUrlByNationality(nationality) {
+    findFlagUrlByNationality: function(nationality) {
         return findFlagUrlByPredicate(({ demonym }) => demonym === nationality);
     },
 
-    findFlagUrlByIso2Code(iso2Code) {
+    findFlagUrlByIso2Code: function(iso2Code) {
         return findFlagUrlByPredicate(({ iso2 }) => iso2 === iso2Code);
     },
 
-    findFlagUrlByIso3Code(iso3Code) {
+    findFlagUrlByIso3Code: function(iso3Code) {
         return findFlagUrlByPredicate(({ iso3 }) => iso3 === iso3Code);
     }
 };
