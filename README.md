@@ -5,6 +5,16 @@ A list of countries with url links to a svg image which you can simply use in yo
 [![NPM](https://nodei.co/npm/country-flags-svg.png?downloads=true)](https://nodei.co/npm/country-flags-svg/)
 
 
+[![Travis][build-badge]][build]
+[![Coveralls][coveralls-badge]][coveralls]
+
+[build-badge]: https://img.shields.io/travis/ronatskiy/country-flags-svg/master.png?style=flat-square
+[build]: https://travis-ci.org/ronatskiy/country-flags-svg
+
+[coveralls-badge]: https://img.shields.io/coveralls/ronatskiy/country-flags-svg/master.png?style=flat-square
+[coveralls]: https://coveralls.io/github/ronatskiy/country-flags-svg
+
+
 ## Install
 
 ```sh

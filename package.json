@@ -7,7 +7,8 @@
 		"node": ">= 6"
 	},
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"test-coverage": "jest --coverage"
 	},
 	"repository": {
 		"type": "git",
@@ -26,6 +27,8 @@
 	},
 	"homepage": "https://github.com/ronatskiy/country-flags-svg#readme",
 	"devDependencies": {
-		"jest": "^22.4.4"
+		"jest": "^22.4.4",
+		"codecov": "^3.0.2",
+		"coveralls": "^3.0.1"
 	}
 }
