@@ -1,8 +1,16 @@
 const { countries, flagUrls } = require("./data/index");
-const api = require("./lib/api");
+const {
+	findFlagUrlByCountryName,
+	findFlagUrlByNationality,
+	findFlagUrlByIso2Code,
+	findFlagUrlByIso3Code,
+} = require("./lib/api");
 
 module.exports = {
-    countries,
+	countries,
 	flagUrls,
-	...api,
+	findFlagUrlByCountryName,
+	findFlagUrlByNationality,
+	findFlagUrlByIso2Code,
+	findFlagUrlByIso3Code,
 };
