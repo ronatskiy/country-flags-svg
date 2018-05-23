@@ -2,6 +2,9 @@
 
 A list of countries with url links to a svg image which you can simply use in your web application
 
+[![NPM](https://nodei.co/npm/country-flags-svg.png?downloads=true)](https://nodei.co/npm/country-flags-svg/)
+
+
 ## Install
 
 ```sh
