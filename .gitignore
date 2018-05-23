@@ -1,3 +1,4 @@
 .idea
 .vscode
 node-modules
+npm-debug.log
