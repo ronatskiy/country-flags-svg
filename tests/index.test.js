@@ -1,4 +1,4 @@
-const flags = require("../data/flags");
+const flags = require("../src/data/flags");
 const {
 	countries,
 	flagUrls,
@@ -6,7 +6,7 @@ const {
 	findFlagUrlByNationality,
 	findFlagUrlByIso2Code,
 	findFlagUrlByIso3Code,
-} = require("../index");
+} = require("../src/index");
 
 describe("countryFlagsSvg", () => {
 	it("should contain all countries data", () => {
