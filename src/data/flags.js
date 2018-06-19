@@ -1,4 +1,4 @@
-{
+module.exports = {
 	"AUS": "http://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
 	"AUT": "http://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg",
 	"AZE": "http://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg",
@@ -40,4 +40,4 @@
 	"ARE": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg",
 	"URY": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg",
 	"VEN": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Venezuela.svg"
-}
+};
