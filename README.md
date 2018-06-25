@@ -71,7 +71,7 @@ Returns SVG link of the official flag for a specified country (according to nati
 
 Returns SVG link of the official flag for a specified country (according to [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code) or empty string if is not exist
 
-### `findFlagUrlByIso2Code(iso3Code)`
+### `findFlagUrlByIso3Code(iso3Code)`
 
 Returns SVG link of the official flag for a specified country (according to [ISO 3166-1 alpha-3](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) code) or empty string if is not exist
 
