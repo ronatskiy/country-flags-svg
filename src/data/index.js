@@ -23,6 +23,13 @@ const countries = [
 		iso3: "AZE",
 	},
 	{
+		name: "Bangladesh",
+		demonym: "Bengali",
+		flag: flags.BGD,
+		iso2: "BD",
+		iso3: "BGD",
+	},
+	{
 		name: "Bahrain",
 		demonym: "Bahraini",
 		flag: flags.BHR,
@@ -72,6 +79,20 @@ const countries = [
 		iso3: "COL",
 	},
 	{
+		name: "Croatia",
+		demonym: "Croatian",
+		flag: flags.HRV,
+		iso2: "HR",
+		iso3: "HRV",
+	},
+	{
+		name: "Cyprus",
+		demonym: "Cypriot",
+		flag: flags.CYP,
+		iso2: "CY",
+		iso3: "CYP",
+	},
+	{
 		name: "Czech Republic",
 		demonym: "Czech",
 		flag: flags.CZE,
@@ -84,6 +105,20 @@ const countries = [
 		flag: flags.DNK,
 		iso2: "DK",
 		iso3: "DNK",
+	},
+	{
+		name: "Estonia",
+		demonym: "Estonian",
+		flag: flags.EST,
+		iso2: "EE",
+		iso3: "EST",
+	},
+	{
+		name: "Fiji",
+		demonym: "Fijian",
+		flag: flags.FJI,
+		iso2: "FJ",
+		iso3: "FJI",
 	},
 	{
 		name: "Finland",
@@ -105,6 +140,20 @@ const countries = [
 		flag: flags.DEU,
 		iso2: "DE",
 		iso3: "DEU",
+	},
+	{
+		name: "Greece",
+		demonym: "Greek",
+		flag: flags.GRC,
+		iso2: "GR",
+		iso3: "GRC",
+	},
+	{
+		name: "Hong Kong",
+		demonym: "Hong Kongese",
+		flag: flags.HKG,
+		iso2: "HK",
+		iso3: "HKG",
 	},
 	{
 		name: "Hungary",
@@ -149,6 +198,13 @@ const countries = [
 		iso3: "JPN",
 	},
 	{
+		name: "Latvia",
+		demonym: "Latvian",
+		flag: flags.LVA,
+		iso2: "LV",
+		iso3: "LVA",
+	},
+	{
 		name: "Liechtenstein",
 		demonym: "Liechtensteiner",
 		flag: flags.LIE,
@@ -156,11 +212,32 @@ const countries = [
 		iso3: "LIE",
 	},
 	{
+		name: "Lithuania",
+		demonym: "Lithuanian",
+		flag: flags.LTU,
+		iso2: "LT",
+		iso3: "LTU",
+	},
+	{
+		name: "Luxembourg",
+		demonym: "Luxembourgish",
+		flag: flags.LUX,
+		iso2: "LU",
+		iso3: "LUX",
+	},
+	{
 		name: "Malaysia",
 		demonym: "Malaysian",
 		flag: flags.MYS,
 		iso2: "MY",
 		iso3: "MYS",
+	},
+	{
+		name: "Mauritius",
+		demonym: "Mauritian",
+		flag: flags.MUS,
+		iso2: "MU",
+		iso3: "MUS",
 	},
 	{
 		name: "Mexico",
@@ -177,6 +254,13 @@ const countries = [
 		iso3: "MCO",
 	},
 	{
+		name: "Nepal",
+		demonym: "Nepalese",
+		flag: flags.NPL,
+		iso2: "NP",
+		iso3: "NPL",
+	},
+	{
 		name: "Netherlands",
 		demonym: "Dutch",
 		flag: flags.NLD,
@@ -189,6 +273,20 @@ const countries = [
 		flag: flags.NZL,
 		iso2: "NZ",
 		iso3: "NZL",
+	},
+	{
+		name: "Norway",
+		demonym: "Norwegian",
+		flag: flags.NOR,
+		iso2: "NO",
+		iso3: "NOR",
+	},
+	{
+		name: "Philippines",
+		demonym: "Filipino",
+		flag: flags.PHL,
+		iso2: "PH",
+		iso3: "PHL",
 	},
 	{
 		name: "Poland",
@@ -218,6 +316,27 @@ const countries = [
 		iso2: "SG",
 		iso3: "SGP",
 		altSpellings: ["SG", "Singapura", "Republik Singapura"],
+	},	
+	{
+		name: "Sri Lanka",
+		demonym: "Sri Lankan",
+		flag: flags.LKA,
+		iso2: "LK",
+		iso3: "LKA",
+	},
+	{
+		name: "Slovakia",
+		demonym: "Slovak",
+		flag: flags.SVK,
+		iso2: "SK",
+		iso3: "SVK",
+	},
+	{
+		name: "Slovenia",
+		demonym: "Slovenian",
+		flag: flags.SVN,
+		iso2: "SI",
+		iso3: "SVN",
 	},
 	{
 		name: "South Africa",
@@ -225,6 +344,14 @@ const countries = [
 		flag: flags.ZAF,
 		iso2: "ZA",
 		iso3: "ZAF",
+	},
+	{
+		name: "South Korea",
+		demonym: "South Korean",
+		flag: flags.KOR,
+		iso2: "KR",
+		iso3: "KOR",
+		altSpellings: ["Republic of Korea"]
 	},
 	{
 		name: "Spain",
@@ -253,6 +380,13 @@ const countries = [
 		flag: flags.THA,
 		iso2: "TH",
 		iso3: "THA",
+	},
+	{
+		name: "Turkey",
+		demonym: "Turkish",
+		flag: flags.TUR,
+		iso2: "TR",
+		iso3: "TUR",
 	},
 	{
 		name: "United Kingdom",
@@ -291,6 +425,14 @@ const countries = [
 		flag: flags.VEN,
 		iso2: "VE",
 		iso3: "VEN",
+	},
+	{
+		name: "Vietnam",
+		demonym: "Vietnamese",
+		flag: flags.VNM,
+		iso2: "VN",
+		iso3: "VNM",
+		altSpellings: ["Viet Nam","Republic of Viet Nam","South Vietnam"]
 	},
 ];
 
