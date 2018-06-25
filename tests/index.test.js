@@ -10,11 +10,11 @@ const {
 
 describe("countryFlagsSvg", () => {
 	it("should contain all countries data", () => {
-		expect(countries).toHaveLength(41);
+		expect(countries).toHaveLength(61);
 	});
 
 	it("should contain all svg urls", () => {
-		expect(Object.keys(flagUrls)).toHaveLength(41);
+		expect(Object.keys(flagUrls)).toHaveLength(61);
 	});
 });
 
