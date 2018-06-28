@@ -107,6 +107,13 @@ const countries = [
 		iso3: "DNK",
 	},
 	{
+		name: "Europe",
+		demonym: "European",
+		flag: flags.EUR,
+		iso2: "EU",
+		iso3: "EUR",
+	},
+	{
 		name: "Estonia",
 		demonym: "Estonian",
 		flag: flags.EST,
