@@ -8,6 +8,7 @@ module.exports = {
 	"BRA": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg",
 	"CAN": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
 	"CHL": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
+	"EUR": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg",
 	"HRV": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
 	"CYP": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Cyprus.svg",
 	"CHN": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
