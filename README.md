@@ -7,6 +7,9 @@ A list of countries with url links to a svg image which you can simply use in yo
 
 [![Travis][build-badge]][build]
 [![Coveralls][coveralls-badge]][coveralls]
+![npm](https://img.shields.io/npm/l/country-flags-svg.svg?style=flat-square)
+
+
 
 [build-badge]: https://img.shields.io/travis/ronatskiy/country-flags-svg/master.png?style=flat-square
 [build]: https://travis-ci.org/ronatskiy/country-flags-svg
