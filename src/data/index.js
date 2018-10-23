@@ -2,6 +2,12 @@ const flags = require("./flags");
 
 const countries = [
 	{
+		name: "Aruba",
+		demonym: "Arubian",
+		flag: flags.ABW,
+		iso2: "AW",
+		iso3: "ABW",
+	},{
 		name: "Australia",
 		demonym: "Australian",
 		flag: flags.AUS,

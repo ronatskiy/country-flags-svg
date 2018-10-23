@@ -1,4 +1,5 @@
 module.exports = {
+	"ABW": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Aruba.svg",
 	"AUS": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
 	"AUT": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg",
 	"AZE": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg",
