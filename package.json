@@ -14,7 +14,7 @@
 		"build": "./node_modules/.bin/babel src --out-dir dist",
 		"test": "jest",
 		"test-coverage": "jest --coverage",
-		"prepublish": "yarn run clean && yarn run test && yarn run build"
+		"prepare": "yarn run clean && yarn run test && yarn run build"
 	},
 	"repository": {
 		"type": "git",
