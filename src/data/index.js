@@ -289,6 +289,13 @@ const countries = [
 		iso3: "NOR",
 	},
 	{
+		name: "Panama",
+		demonym: "Panamanian",
+		flag: flags.PAN,
+		iso2: "PA",
+		iso3: "PAN",
+	},
+	{
 		name: "Philippines",
 		demonym: "Filipino",
 		flag: flags.PHL,

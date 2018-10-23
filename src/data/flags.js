@@ -40,6 +40,7 @@ module.exports = {
 	"NPL": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg",
 	"NZL": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
 	"NOR": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+	"PAN": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Panama.svg",
 	"PHL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg",
 	"POL": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
 	"PRT": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
