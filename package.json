@@ -15,7 +15,7 @@
 		"test": "jest",
 		"test-coverage": "jest --coverage",
 		"prepare": "yarn run clean && yarn run test && yarn run build",
-		"publish": "npm version patch && npm publish"
+		"deploy": "npm version patch && npm publish"
 	},
 	"repository": {
 		"type": "git",
