@@ -9,7 +9,7 @@ const {
 } = require("../src/index");
 
 describe("countryFlagsSvg", () => {
-	const amountOfAddedFlags = 63;
+	const amountOfAddedFlags = 64;
 
 	it("should contain all countries data", () => {
 		expect(countries).toHaveLength(amountOfAddedFlags);

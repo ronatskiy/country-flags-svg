@@ -36,6 +36,7 @@ module.exports = {
 	"MUS": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Mauritius.svg",
 	"MEX": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
 	"MCO": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg",
+	"MNE": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Montenegro.svg",
 	"NLD": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
 	"NPL": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg",
 	"NZL": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",

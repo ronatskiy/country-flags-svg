@@ -261,6 +261,13 @@ const countries = [
 		iso3: "MCO",
 	},
 	{
+		name: "Montenegro",
+		demonym: "Montenegrin",
+		flag: flags.MNE,
+		iso2: "ME",
+		iso3: "MNE",
+	},
+	{
 		name: "Nepal",
 		demonym: "Nepalese",
 		flag: flags.NPL,
