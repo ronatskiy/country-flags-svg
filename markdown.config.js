@@ -16,9 +16,9 @@ module.exports = {
 				return `<tr>${countries.map(renderFlag).join("")}</tr>`
 
 			};
-			const pageSize = 10;
+			const pageSize = 7;
 			const numberOfPages = Math.ceil(countries.length / pageSize);
-			return `<table style="font-size: 10px;">${Array(numberOfPages).fill(0).map((_, index) => renderRow(paginate(countries, pageSize, index + 1))).join("\n")}</table>`;
+			return `<table>${Array(numberOfPages).fill(0).map((_, index) => renderRow(paginate(countries, pageSize, index + 1))).join("\n")}</table>`;
 		}
 	},
 };
