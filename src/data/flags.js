@@ -65,4 +65,5 @@ module.exports = {
 	"URY": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg",
 	"VEN": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Venezuela.svg",
 	"VNM": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg",
+	"ZWE": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Flag_of_Zimbabwe.svg",
 };

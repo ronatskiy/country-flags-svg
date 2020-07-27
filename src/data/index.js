@@ -343,7 +343,7 @@ const countries = [
 		iso2: "SG",
 		iso3: "SGP",
 		altSpellings: ["SG", "Singapura", "Republik Singapura"],
-	},	
+	},
 	{
 		name: "Sri Lanka",
 		demonym: "Sri Lankan",
@@ -467,7 +467,13 @@ const countries = [
 		iso2: "VN",
 		iso3: "VNM",
 		altSpellings: ["Viet Nam","Republic of Viet Nam","South Vietnam"]
-	},
+	}, {
+		name: "Zimbabwe",
+		demonym: "Zimbabwean",
+		flag: flags.ZWE,
+		iso2: "ZW",
+		iso3: "ZWE",
+	}
 ];
 
 module.exports = {
