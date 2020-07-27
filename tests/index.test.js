@@ -9,15 +9,17 @@ const {
 } = require("../src/index");
 
 describe("countryFlagsSvg", () => {
-	const amountOfAddedFlags = 65;
+	it("countries should contain all svg urls", () => {
+		const amountOfFlagUrls = Object.keys(flagUrls).length;
 
-	it("should contain all countries data", () => {
-		expect(countries).toHaveLength(amountOfAddedFlags);
+		expect(countries).toHaveLength(amountOfFlagUrls);
 	});
 
-	it("should contain all svg urls", () => {
-		expect(Object.keys(flagUrls)).toHaveLength(amountOfAddedFlags);
-	});
+	it("all countries must contain required properties", () => {
+		const requiredProperties = ["name", "demonym", "flag", "iso2", "iso3"]
+
+		expect(countries.every(country => requiredProperties.every(requiredProperty => country.hasOwnProperty(requiredProperty)))).toBe(true)
+	})
 });
 
 describe("api", () => {
