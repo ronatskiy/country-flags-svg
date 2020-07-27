@@ -58,6 +58,7 @@ module.exports = {
 	"CHE": "https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Switzerland_%28Pantone%29.svg",
 	"THA": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
 	"TUR": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+	"UKR": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
 	"GBR": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg",
 	"USA": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
 	"ARE": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg",

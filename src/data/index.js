@@ -416,6 +416,13 @@ const countries = [
 		iso3: "TUR",
 	},
 	{
+		name: "Ukraine",
+		demonym: "Ukrainian",
+		flag: flags.UKR,
+		iso2: "UA",
+		iso3: "UKR",
+	},
+	{
 		name: "United Kingdom",
 		altSpellings: ["UK"],
 		demonym: "British",
