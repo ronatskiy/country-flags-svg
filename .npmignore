@@ -1,0 +1,13 @@
+/src/
+coverage/
+data/
+node_modules/
+.idea
+.editorconfig
+.eslintrc.json
+.git*
+.travis.yml
+composer.*
+package-lock.json
+yarn.lock
+tests/
