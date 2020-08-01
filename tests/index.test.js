@@ -1,4 +1,4 @@
-const flags = require("../src/data/flags");
+const flags = require("../src/data/flagUrlByIso3");
 const {
 	countries,
 	flagUrls,
@@ -9,10 +9,18 @@ const {
 } = require("../src/index");
 
 describe("countryFlagsSvg", () => {
-	it("countries should contain all svg urls", () => {
+	it("countries and svg urls should have equal amounts", () => {
 		const amountOfFlagUrls = Object.keys(flagUrls).length;
 
 		expect(countries).toHaveLength(amountOfFlagUrls);
+	});
+
+	it("all countries should have all svg urls", () => {
+		for (const [flagUrlKey, flagUrlValue] of Object.entries(flagUrls)) {
+			const country = countries.find(country => country.iso3 === flagUrlKey);
+			expect(country).toBeDefined();
+			expect(country.flag).toEqual(flagUrlValue);
+		}
 	});
 
 	it("all countries must contain required properties", () => {
@@ -43,6 +51,12 @@ describe("api", () => {
 				expect(countryInfo).toBe(flags.AUS);
 			});
 		});
+
+		it("should correctly find flag by alt spelling", () => {
+			const countryInfo = findFlagUrlByCountryName("Republik Singapura");
+
+			expect(countryInfo).toBe(flags.SGP);
+		})
 
 		it("should return empty string for incorrect arg", () => {
 			expect(findFlagUrlByCountryName("111")).toBe("");

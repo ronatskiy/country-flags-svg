@@ -1,0 +1,86 @@
+const flagUrlByIso3 = require("./flagUrlByIso3");
+
+class CountryData {
+	constructor(name, demonym, iso2, iso3, altSpellings = []) {
+		this.name = name;
+		this.demonym = demonym;
+		this.flag = flagUrlByIso3[iso3];
+		this.iso2 = iso2;
+		this.iso3 = iso3;
+		this.altSpellings = altSpellings;
+	}
+}
+
+module.exports = [
+	new CountryData("Afghanistan", "Afghan", "AF", "AFG"),
+	new CountryData("Albania", "Albanian", "AL", "ALB"),
+	new CountryData("Andorra", "Andorran", "AD", "AND"),
+	new CountryData("Angola", "Angolan", "AO", "AGO"),
+	new CountryData("Aruba", "Arubian", "AW", "ABW"),
+	new CountryData("Australia","Australian","AU","AUS"),
+	new CountryData("Austria","Austrian","AT","AUT"),
+	new CountryData("Azerbaijan","Azerbaijani","AZ","AZE"),
+	new CountryData("Bangladesh","Bengali","BD","BGD"),
+	new CountryData("Bahrain","Bahraini","BH","BHR"),
+	new CountryData("Belgium","Belgian","BE","BEL"),
+	new CountryData("Brazil","Brazilian","BR","BRA"),
+	new CountryData("Canada","Canadian","CA","CAN"),
+	new CountryData("Chile","Chilean","CL","CHL"),
+	new CountryData("China","Chinese","CN","CHN"),
+	new CountryData("Colombia","Colombian","CO","COL"),
+	new CountryData("Croatia","Croatian","HR","HRV"),
+	new CountryData("Cyprus","Cypriot","CY","CYP"),
+	new CountryData("Czech Republic","Czech","CZ","CZE"),
+	new CountryData("Denmark","Danish","DK","DNK"),
+	new CountryData("Europe","European","EU","EUR"),
+	new CountryData("Estonia","Estonian","EE","EST"),
+	new CountryData("Fiji","Fijian","FJ","FJI"),
+	new CountryData("Finland","Finnish","FI","FIN"),
+	new CountryData("France","French","FR","FRA"),
+	new CountryData("Germany","German","DE","DEU"),
+	new CountryData("Greece","Greek","GR","GRC"),
+	new CountryData("Hong Kong","Hong Kongese","HK","HKG"),
+	new CountryData("Hungary","Hungarian","HU","HUN"),
+	new CountryData("India","Indian","IN","IND"),
+	new CountryData("Indonesia","Indonesian","ID","IDN"),
+	new CountryData("Ireland","Irish","IE","IRL"),
+	new CountryData("Italy","Italian","IT","ITA"),
+	new CountryData("Japan","Japanese","JP","JPN"),
+	new CountryData("Latvia","Latvian","LV","LVA"),
+	new CountryData("Liechtenstein","Liechtensteiner","LI","LIE"),
+	new CountryData("Lithuania","Lithuanian","LT","LTU"),
+	new CountryData("Luxembourg","Luxembourgish","LU","LUX"),
+	new CountryData("Malaysia","Malaysian","MY","MYS"),
+	new CountryData("Mauritius","Mauritian","MU","MUS"),
+	new CountryData("Mexico","Mexican","MX","MEX"),
+	new CountryData("Monaco","Monegasque","MC","MCO"),
+	new CountryData("Montenegro","Montenegrin","ME","MNE"),
+	new CountryData("Nepal","Nepalese","NP","NPL"),
+	new CountryData("Netherlands","Dutch","NL","NLD"),
+	new CountryData("New Zealand","New Zealander","NZ","NZL"),
+	new CountryData("Norway","Norwegian","NO","NOR"),
+	new CountryData("Panama","Panamanian","PA","PAN"),
+	new CountryData("Philippines","Filipino","PH","PHL"),
+	new CountryData("Poland","Polish","PL","POL"),
+	new CountryData("Portugal","Portuguese","PT","PRT"),
+	new CountryData("Russia","Russian","RU","RUS"),
+	new CountryData("Singapore","Singaporean","SG","SGP",["SG", "Singapura", "Republik Singapura"]),
+	new CountryData("Sri Lanka","Sri Lankan","LK","LKA"),
+	new CountryData("Slovakia","Slovak","SK","SVK"),
+	new CountryData("Slovenia","Slovenian","SI","SVN"),
+	new CountryData("South Africa","South African","ZA","ZAF"),
+	new CountryData("South Korea","South Korean","KR","KOR",["Republic of Korea"]),
+	new CountryData("Spain","Spanish","ES","ESP"),
+	new CountryData("Sweden","Swedish","SE","SWE"),
+	new CountryData("Switzerland","Swiss","CH","CHE"),
+	new CountryData("Thailand","Thai","TH","THA"),
+	new CountryData("Turkey","Turkish","TR","TUR"),
+	new CountryData("Ukraine","Ukrainian","UA","UKR"),
+	new CountryData("United Kingdom", "British","GB","GBR", ["UK"]),
+	new CountryData("United States","American","US","USA", ["USA"]),
+	new CountryData("United Arab Emirates","Emirati","AE","ARE",["AE", "UAE"]),
+	new CountryData("Uruguay","Uruguayan","UY","URY"),
+	new CountryData("Venezuela","Venezuelan","VE","VEN"),
+	new CountryData("Vietnam","Vietnamese","VN","VNM", ["Viet Nam","Republic of Viet Nam","South Vietnam"]),
+	new CountryData("Zimbabwe","Zimbabwean","ZW","ZWE")
+];

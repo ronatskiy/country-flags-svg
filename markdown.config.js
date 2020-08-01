@@ -1,4 +1,4 @@
-const { countries } = require("./src/data/index");
+const countries = require("./src/data/countries");
 
 function paginate(list, pageSize, currentPage) {
 	const begin = ((currentPage - 1) * pageSize);

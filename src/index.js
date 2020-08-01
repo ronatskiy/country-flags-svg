@@ -1,4 +1,5 @@
-const { countries, flagUrls } = require("./data/index");
+const countries = require("./data/countries");
+const flagUrls = require("./data/flagUrlByIso3");
 const {
 	findFlagUrlByCountryName,
 	findFlagUrlByNationality,
