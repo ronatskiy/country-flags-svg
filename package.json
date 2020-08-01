@@ -15,7 +15,7 @@
 		"test": "jest",
 		"test-coverage": "jest --coverage",
 		"prepare": "npm run clean && npm run test && npm run build",
-		"deploy": "npm publish",
+		"publish": "npm publish",
 		"update-docs": "md-magic --path ./README.md --ignore node_modules",
 		"prepublishOnly": "npm version patch"
 	},
