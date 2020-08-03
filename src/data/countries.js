@@ -24,6 +24,7 @@ module.exports = [
 	new CountryData("Bahrain","Bahraini","BH","BHR"),
 	new CountryData("Belgium","Belgian","BE","BEL"),
 	new CountryData("Brazil","Brazilian","BR","BRA"),
+	new CountryData("Bulgaria","Bulgarian","BG","BGR"),
 	new CountryData("Canada","Canadian","CA","CAN"),
 	new CountryData("Chile","Chilean","CL","CHL"),
 	new CountryData("China","Chinese","CN","CHN"),
