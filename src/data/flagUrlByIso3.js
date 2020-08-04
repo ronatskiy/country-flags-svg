@@ -14,6 +14,7 @@ module.exports = {
 	"AZE": createUrl("commons/d/dd/Flag_of_Azerbaijan.svg"),
 	"BHR": createUrl("commons/2/2c/Flag_of_Bahrain.svg"),
 	"BGD": createUrl("commons/f/f9/Flag_of_Bangladesh.svg"),
+	"BGR": createUrl("commons/9/9a/Flag_of_Bulgaria.svg"),
 	"BEL": createUrl("commons/9/92/Flag_of_Belgium_%28civil%29.svg"),
 	"BRA": createUrl("commons/0/05/Flag_of_Brazil.svg"),
 	"CAN": createUrl("commons/c/cf/Flag_of_Canada.svg"),
