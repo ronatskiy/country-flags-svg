@@ -37,6 +37,7 @@ module.exports = {
 	"IND": createUrl("commons/4/41/Flag_of_India.svg"),
 	"IDN": createUrl("commons/9/9f/Flag_of_Indonesia.svg"),
 	"IRL": createUrl("commons/4/45/Flag_of_Ireland.svg"),
+	"ISR": createUrl("commons/d/d4/Flag_of_Israel.svg"),
 	"ITA": createUrl("commons/0/03/Flag_of_Italy.svg"),
 	"JPN": createUrl("commons/9/9e/Flag_of_Japan.svg"),
 	"LVA": createUrl("commons/8/84/Flag_of_Latvia.svg"),

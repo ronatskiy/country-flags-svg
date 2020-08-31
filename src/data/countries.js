@@ -45,6 +45,7 @@ module.exports = [
 	new CountryData("India","Indian","IN","IND"),
 	new CountryData("Indonesia","Indonesian","ID","IDN"),
 	new CountryData("Ireland","Irish","IE","IRL"),
+	new CountryData("Israel","Israeli","IL","ISR"),
 	new CountryData("Italy","Italian","IT","ITA"),
 	new CountryData("Japan","Japanese","JP","JPN"),
 	new CountryData("Latvia","Latvian","LV","LVA"),
