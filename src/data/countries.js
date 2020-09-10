@@ -93,7 +93,7 @@ module.exports = [
 	new CountryData("Georgia", "Georgian", "GE", "GEO"),
 	new CountryData("Germany", "German", "DE", "DEU"),
 	new CountryData("Ghana", "Ghanaian", "GH", "GHA"),
-	new CountryData("Gibraltar", "Gibraltarian", "GB", "GIB"),
+	new CountryData("Gibraltar", "Gibraltarian", "GI", "GIB"),
 	new CountryData("Greece", "Greek", "GR", "GRC"),
 	new CountryData("Greenland", "Greenlander", "GL", "GRL"),
 	new CountryData("Grenada", "Grenadian", "GD", "GRD"),
