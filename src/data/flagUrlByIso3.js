@@ -98,7 +98,7 @@ module.exports = {
 	'GUM': createUrl('commons/0/07/Flag_of_Guam.svg'),
 	'GUY': createUrl('commons/9/99/Flag_of_Guyana.svg'),
 	'HKG': createUrl('commons/5/5b/Flag_of_Hong_Kong.svg'),
-	'HND': createUrl('commons/8/8c/Flag_of_Honduras_(darker_variant).svg'),
+	'HND': createUrl('commons/8/82/Flag_of_Honduras.svg'),
 	'HRV': createUrl('commons/1/1b/Flag_of_Croatia.svg'),
 	'HTI': createUrl('commons/5/56/Flag_of_Haiti.svg'),
 	'HUN': createUrl('commons/c/c1/Flag_of_Hungary.svg'),
