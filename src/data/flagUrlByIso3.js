@@ -4,7 +4,7 @@ function createUrl(svgUrl) {
 
 module.exports = {
 	'ABW': createUrl('commons/f/f6/Flag_of_Aruba.svg'),
-	'AFG': createUrl('commons/9/9a/Flag_of_Afghanistan.svg'),
+	'AFG': createUrl('commons/c/cd/Flag_of_Afghanistan_(2013%E2%80%932021).svg'),
 	'AGO': createUrl('commons/9/9d/Flag_of_Angola.svg'),
 	'AIA': createUrl('commons/b/b4/Flag_of_Anguilla.svg'),
 	'ALA': createUrl('commons/5/52/Flag_of_%C3%85land.svg'),
@@ -81,7 +81,7 @@ module.exports = {
 	'FSM': createUrl('commons/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg'),
 	'GAB': createUrl('commons/0/04/Flag_of_Gabon.svg'),
 	'GBR': createUrl('commons/a/ae/Flag_of_the_United_Kingdom.svg'),
-	'GEO': createUrl('commons/0/0f/Flag_of_Georgia.svg'), 
+	'GEO': createUrl('commons/0/0f/Flag_of_Georgia.svg'),
 	'GGY': createUrl('commons/f/fa/Flag_of_Guernsey.svg'),
 	'GHA': createUrl('commons/1/19/Flag_of_Ghana.svg'),
 	'GIB': createUrl('commons/0/02/Flag_of_Gibraltar.svg'),
