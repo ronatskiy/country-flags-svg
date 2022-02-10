@@ -4,7 +4,7 @@ function createUrl(svgUrl) {
 
 module.exports = {
 	'ABW': createUrl('commons/f/f6/Flag_of_Aruba.svg'),
-	'AFG': createUrl('commons/c/cd/Flag_of_Afghanistan_(2013%E2%80%932021).svg'),
+	'AFG': createUrl('commons/5/5c/Flag_of_the_Taliban.svg'),
 	'AGO': createUrl('commons/9/9d/Flag_of_Angola.svg'),
 	'AIA': createUrl('commons/b/b4/Flag_of_Anguilla.svg'),
 	'ALA': createUrl('commons/5/52/Flag_of_%C3%85land.svg'),
