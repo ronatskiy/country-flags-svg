@@ -69,7 +69,7 @@ module.exports = [
 	new CountryData("Curaçao", "Dutch", "CW", "CUW"),
 	new CountryData("Cyprus", "Cypriot", "CY", "CYP"),
 	new CountryData("Czech Republic", "Czech", "CZ", "CZE"),
-	new CountryData("Democratic Republic of the Congo", "Congolese", "KP", "COD"),
+	new CountryData("Democratic Republic of the Congo", "Congolese", "CD", "COD"),
 	new CountryData("Denmark", "Danish", "DK", "DNK"),
 	new CountryData("Djibouti", "Djiboutian", "DJ", "DJI"),
 	new CountryData("Dominica", "Dominican", "DM", "DMA"),
