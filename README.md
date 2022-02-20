@@ -80,7 +80,7 @@ Returns SVG link of the official flag for a specified country (according to [ISO
 
 ## Available Flags
 
-[The full list of available flags you can see on the Docs page](https://ronatskiy.github.io/country-flags-svg/)
+The full list of available flags you can see on the [Docs page](https://ronatskiy.github.io/country-flags-svg/)
 
 if not enough don't be shy and provide merge request ;)
 
