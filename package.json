@@ -7,7 +7,7 @@
 		"dist"
 	],
 	"engines": {
-		"node": "^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0"
+		"node": "^12.17.0 || 13.x || 14.x || 15.x || 16.x"
 	},
 	"scripts": {
 		"clean": "rimraf dist coverage",
@@ -34,14 +34,13 @@
 	},
 	"homepage": "https://github.com/ronatskiy/country-flags-svg#readme",
 	"devDependencies": {
-		"@babel/cli": "7.14.8",
-		"@babel/core": "7.15.0",
-		"@babel/preset-env": "7.15.0",
-		"babel-jest": "27.1.0",
+		"@babel/cli": "7.17.3",
+		"@babel/core": "7.17.5",
+		"@babel/preset-env": "7.16.11",
+		"babel-jest": "27.5.1",
 		"codecov": "3.8.3",
-		"coveralls": "3.1.0",
-		"jest": "27.1.0",
-		"pre-commit": "1.2.2",
+		"coveralls": "3.1.1",
+		"jest": "27.5.1",
 		"rimraf": "3.0.2"
 	},
 	"babel": {
