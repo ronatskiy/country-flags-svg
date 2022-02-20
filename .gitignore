@@ -6,3 +6,4 @@ coverage
 yarn.lock
 dist
 yarn-error.log
+.parcel-cache
