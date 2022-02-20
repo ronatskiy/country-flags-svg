@@ -14,8 +14,7 @@
 		"build": "./node_modules/.bin/babel src --out-dir dist",
 		"test": "jest",
 		"test-coverage": "jest --coverage",
-		"prepare": "npm run clean && npm run test && npm run build",
-		"publish": "npm publish"
+		"prepare": "npm run clean && npm run test && npm run build"
 	},
 	"repository": {
 		"type": "git",
