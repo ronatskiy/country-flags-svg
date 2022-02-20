@@ -15,8 +15,7 @@
 		"test": "jest",
 		"test-coverage": "jest --coverage",
 		"prepare": "npm run clean && npm run test && npm run build",
-		"publish": "npm publish",
-		"update-docs": "md-magic --path ./README.md --ignore node_modules"
+		"publish": "npm publish"
 	},
 	"repository": {
 		"type": "git",
@@ -42,14 +41,9 @@
 		"codecov": "3.8.3",
 		"coveralls": "3.1.0",
 		"jest": "27.1.0",
-		"markdown-magic": "2.5.2",
 		"pre-commit": "1.2.2",
 		"rimraf": "3.0.2"
 	},
-	"pre-commit": [
-		"update-docs",
-		"test"
-	],
 	"babel": {
 		"presets": [
 			"@babel/preset-env"
