@@ -9,7 +9,8 @@
 	"scripts": {
 		"start": "parcel src/index.html --open",
 		"build": "parcel build src/index.html --public-url /country-flags-svg --no-content-hash",
-		"predeploy": "npm run build",
+		"clean": "rimraf dist",
+		"predeploy": "npm run clean && npm run build",
 		"deploy": "gh-pages -d dist"
 	},
 	"repository": {
@@ -24,7 +25,8 @@
 	"homepage": "https://github.com/ronatskiy/country-flags-svg#readme",
 	"devDependencies": {
 		"gh-pages": "^3.2.3",
-		"parcel": "^2.3.2"
+		"parcel": "^2.3.2",
+		"rimraf": "^3.0.2"
 	},
 	"dependencies": {
 		"country-flags-svg": "latest"
