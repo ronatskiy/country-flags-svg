@@ -2,7 +2,7 @@
 	"name": "country-flags-svg-docs",
 	"version": "1.0.0",
 	"description": "Docs for a list of countries with url links to a svg image which you can simply use in your web application",
-	"main": "dist/index.js",
+	"source": "src/index.html",
 	"files": [
 		"dist"
 	],
