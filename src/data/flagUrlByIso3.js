@@ -122,6 +122,7 @@ module.exports = {
 	'KIR': createUrl('commons/d/d3/Flag_of_Kiribati.svg'),
 	'KNA': createUrl('commons/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg'),
 	'KOR': createUrl('commons/0/09/Flag_of_South_Korea.svg'),
+	'KUR': createUrl('commons/3/35/Flag_of_Kurdistan.svg'),
 	'KWT': createUrl('commons/a/aa/Flag_of_Kuwait.svg'),
 	'LAO': createUrl('commons/5/56/Flag_of_Laos.svg'),
 	'LBN': createUrl('commons/5/59/Flag_of_Lebanon.svg'),

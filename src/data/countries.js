@@ -126,6 +126,7 @@ module.exports = [
 	new CountryData("Kenya", "Kenyan", "KE", "KEN"),
 	new CountryData("Kiribati", "I-Kiribati", "KI", "KIR"),
 	new CountryData("Kosovo", "Kosovar", "XK", "XXK"),
+	new CountryData("Kurdistan", "Kurdish", "KU", "KUR"),
 	new CountryData("Kuwait", "	Kuwaiti", "KW", "KWT"),
 	new CountryData("Kyrgyzstan", "Kyrgyzstani", "KG", "KGZ"),
 	new CountryData("Laos", "Lao", "LA", "LAO"),
