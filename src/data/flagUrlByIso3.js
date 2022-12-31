@@ -80,7 +80,7 @@ module.exports = {
 	'FRO': createUrl('commons/3/3c/Flag_of_the_Faroe_Islands.svg'),
 	'FSM': createUrl('commons/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg'),
 	'GAB': createUrl('commons/0/04/Flag_of_Gabon.svg'),
-	'GBR': createUrl('commons/a/ae/Flag_of_the_United_Kingdom.svg'),
+	'GBR': createUrl('commons/a/a5/Flag_of_the_United_Kingdom_(1-2).svg'),
 	'GEO': createUrl('commons/0/0f/Flag_of_Georgia.svg'),
 	'GGY': createUrl('commons/f/fa/Flag_of_Guernsey.svg'),
 	'GHA': createUrl('commons/1/19/Flag_of_Ghana.svg'),
