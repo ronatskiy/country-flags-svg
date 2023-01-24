@@ -10,7 +10,7 @@
 		"start": "parcel src/index.html --open",
 		"build": "parcel build src/index.html --public-url /country-flags-svg --no-content-hash",
 		"clean": "rimraf dist",
-		"predeploy": "npm run clean && npm run build",
+		"predeploy": "npm run clean && npm install && npm run build",
 		"deploy": "gh-pages -d dist"
 	},
 	"repository": {
@@ -29,7 +29,7 @@
 		"rimraf": "^3.0.2"
 	},
 	"dependencies": {
-		"country-flags-svg": "latest"
+		"country-flags-svg": "^1.1.8"
 	},
 	"browserslist": [
 		"> 0.5%",
