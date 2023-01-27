@@ -75,6 +75,7 @@ module.exports = [
 	new CountryData("Dominica", "Dominican", "DM", "DMA"),
 	new CountryData("Dominican Republic", "Dominican", "DO", "DOM"),
 	new CountryData("Ecuador", "Ecuadorian", "EC", "ECU"),
+	new CountryData("England", "English", "EN", "ENG"),
 	new CountryData("Egypt", "Egyptian", "EG", "EGY"),
 	new CountryData("El Salvador", "Salvadoran", "SV", "SLV"),
 	new CountryData("Equatorial Guinea", "Equatoguinean", "GQ", "GNQ"),

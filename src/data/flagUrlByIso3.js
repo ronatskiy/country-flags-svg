@@ -67,6 +67,7 @@ module.exports = {
 	'DOM': createUrl('commons/9/9f/Flag_of_the_Dominican_Republic.svg'),
 	'DZA': createUrl('commons/7/77/Flag_of_Algeria.svg'),
 	'ECU': createUrl('commons/e/e8/Flag_of_Ecuador.svg'),
+	'ENG': createUrl('commons/b/be/Flag_of_England.svg'),
 	'EGY': createUrl('commons/f/fe/Flag_of_Egypt.svg'),
 	'ERI': createUrl('commons/2/29/Flag_of_Eritrea.svg'),
 	'ESH': createUrl('commons/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg'),
