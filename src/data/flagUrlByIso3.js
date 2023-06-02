@@ -105,6 +105,7 @@ module.exports = {
 	'IDN': createUrl('commons/9/9f/Flag_of_Indonesia.svg'),
 	'IMN': createUrl('commons/b/bc/Flag_of_the_Isle_of_Man.svg'),
 	'IND': createUrl('commons/4/41/Flag_of_India.svg'),
+	'IOT': createUrl("commons/6/65/Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg'),
 	'IRL': createUrl('commons/c/c0/Republic_of_Ireland_Flag.svg'),
 	'IRN': createUrl('commons/c/ca/Flag_of_Iran.svg'),
 	'IRQ': createUrl('commons/f/f6/Flag_of_Iraq.svg'),
