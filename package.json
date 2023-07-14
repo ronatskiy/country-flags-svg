@@ -1,16 +1,25 @@
 {
 	"name": "country-flags-svg",
-	"version": "1.1.9",
+	"version": "2.0.0-beta.1",
 	"description": "A list of countries with url links to a svg image which you can simply use in your web application",
-	"main": "dist/index.js",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs",
+			"types": "./dist/index.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"sideEffects": false,
 	"files": [
 		"dist"
 	],
 	"scripts": {
 		"clean": "rimraf dist coverage",
-		"build": "tsup src/index.ts --format cjs --minify --dts --out-dir dist",
 		"test": "jest",
 		"test-coverage": "jest --coverage",
+		"build": "tsup",
 		"prepare": "npm run clean && npm run test && npm run build"
 	},
 	"repository": {
@@ -37,9 +46,21 @@
 		"tsup": "7.1.0",
 		"typescript": "5.1.6"
 	},
-	"babel": {
-		"presets": [
-			"@babel/preset-env"
-		]
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"tsup": {
+		"dts": true,
+		"treeshake": true,
+		"minify": true,
+		"target": "node16",
+		"format": [
+			"cjs",
+			"esm"
+		],
+		"entry": [
+			"src/index.ts"
+		],
+		"clear": true
 	}
 }

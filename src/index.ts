@@ -1,11 +1,13 @@
 import countries from "./data/countries";
-import flagUrls from "./data/flagUrlByIso3";
 import {
 	findFlagUrlByCountryName,
 	findFlagUrlByNationality,
 	findFlagUrlByIso2Code,
 	findFlagUrlByIso3Code,
+	getMapFlagUrlByIso3Code,
 } from "./lib/api";
+
+const flagUrls = getMapFlagUrlByIso3Code();
 
 export {
 	countries,
