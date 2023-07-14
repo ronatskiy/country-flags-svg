@@ -112,6 +112,7 @@ module.exports = [
 	new CountryData("Iceland", "Icelander", "IS", "ISL"),
 	new CountryData("India", "Indian", "IN", "IND"),
 	new CountryData("Indonesia", "Indonesian", "ID", "IDN"),
+	new CountryData("British Indian Ocean Territory", "British", "IO", "IOT"),
 	new CountryData("Iran", "Iranian", "IR", "IRN"),
 	new CountryData("Iraq", "Iraqi", "IQ", "IRQ"),
 	new CountryData("Ireland", "Irish", "IE", "IRL"),
