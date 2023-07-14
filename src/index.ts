@@ -1,13 +1,13 @@
-const countries = require("./data/countries");
-const flagUrls = require("./data/flagUrlByIso3");
-const {
+import countries from "./data/countries";
+import flagUrls from "./data/flagUrlByIso3";
+import {
 	findFlagUrlByCountryName,
 	findFlagUrlByNationality,
 	findFlagUrlByIso2Code,
 	findFlagUrlByIso3Code,
-} = require("./lib/api");
+} from "./lib/api";
 
-module.exports = {
+export {
 	countries,
 	flagUrls,
 	findFlagUrlByCountryName,

@@ -6,12 +6,9 @@
 	"files": [
 		"dist"
 	],
-	"engines": {
-		"node": "^16.x || 17.x || 18.x"
-	},
 	"scripts": {
 		"clean": "rimraf dist coverage",
-		"build": "./node_modules/.bin/babel src --out-dir dist",
+		"build": "tsup src/index.ts --format cjs --minify --dts --out-dir dist",
 		"test": "jest",
 		"test-coverage": "jest --coverage",
 		"prepare": "npm run clean && npm run test && npm run build"
@@ -33,14 +30,12 @@
 	},
 	"homepage": "https://github.com/ronatskiy/country-flags-svg#readme",
 	"devDependencies": {
-		"@babel/cli": "7.17.3",
-		"@babel/core": "7.17.5",
-		"@babel/preset-env": "7.16.11",
-		"babel-jest": "27.5.1",
 		"codecov": "3.8.3",
 		"coveralls": "3.1.1",
 		"jest": "27.5.1",
-		"rimraf": "3.0.2"
+		"rimraf": "3.0.2",
+		"tsup": "7.1.0",
+		"typescript": "5.1.6"
 	},
 	"babel": {
 		"presets": [
