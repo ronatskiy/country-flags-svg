@@ -7,3 +7,4 @@ yarn.lock
 dist
 yarn-error.log
 .parcel-cache
+.ignore-me

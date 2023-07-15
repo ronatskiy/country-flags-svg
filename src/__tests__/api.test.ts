@@ -1,62 +1,57 @@
-const flags = require("../src/data/flagUrlByIso3");
-const {
-	countries,
-	flagUrls,
+const TEST_AUS = {
+	name: "Test Australia",
+	demonym: "Test Australian",
+	flag: "https://restcountries.eu/data/aus.svg",
+	iso2: "A1",
+	iso3: "A2S",
+	altSpellings: ["A12"],
+};
+
+const TEST_SGP = {
+	name: "Test Singapore",
+	demonym: "Test Singaporean",
+	flag: "https://restcountries.eu/data/sgp.svg",
+	iso2: "1G",
+	iso3: "S4P",
+	altSpellings: ["SG", "Singapura", "Republik Singapura", "新加坡共和国"],
+};
+
+jest.mock("../data/countries", () => [TEST_AUS, TEST_SGP]);
+
+import {
 	findFlagUrlByCountryName,
 	findFlagUrlByNationality,
 	findFlagUrlByIso2Code,
 	findFlagUrlByIso3Code,
-} = require("../src/index");
-
-describe("countryFlagsSvg", () => {
-	it("countries and svg urls should have equal amounts", () => {
-		const amountOfFlagUrls = Object.keys(flagUrls).length;
-
-		expect(countries).toHaveLength(amountOfFlagUrls);
-	});
-
-	it("all countries should have all svg urls", () => {
-		for (const [flagUrlKey, flagUrlValue] of Object.entries(flagUrls)) {
-			const country = countries.find(country => country.iso3 === flagUrlKey);
-			expect(country).toBeDefined();
-			expect(country.flag).toEqual(flagUrlValue);
-		}
-	});
-
-	it("all countries must contain required properties", () => {
-		const requiredProperties = ["name", "demonym", "flag", "iso2", "iso3"]
-
-		expect(countries.every(country => requiredProperties.every(requiredProperty => country.hasOwnProperty(requiredProperty)))).toBe(true)
-	})
-});
+} from "../index";
 
 describe("api", () => {
 	describe("findFlagUrlByCountryName", () => {
 		describe("should return correct flag url for Australia", () => {
 			it("when argument in capital case", () => {
-				const countryInfo = findFlagUrlByCountryName("Australia");
+				const countryInfo = findFlagUrlByCountryName(TEST_AUS.name);
 
-				expect(countryInfo).toBe(flags.AUS);
+				expect(countryInfo).toBe(TEST_AUS.flag);
 			});
 
 			it("when argument in uppercase", () => {
-				const countryInfo = findFlagUrlByCountryName("AUSTRALIA");
+				const countryInfo = findFlagUrlByCountryName(TEST_AUS.name.toUpperCase());
 
-				expect(countryInfo).toBe(flags.AUS);
+				expect(countryInfo).toBe(TEST_AUS.flag);
 			});
 
 			it("when argument in lowercase", () => {
-				const countryInfo = findFlagUrlByCountryName("australia");
+				const countryInfo = findFlagUrlByCountryName(TEST_AUS.name.toLowerCase());
 
-				expect(countryInfo).toBe(flags.AUS);
+				expect(countryInfo).toBe(TEST_AUS.flag);
 			});
 		});
 
 		it("should correctly find flag by alt spelling", () => {
-			const countryInfo = findFlagUrlByCountryName("Republik Singapura");
+			const countryInfo = findFlagUrlByCountryName("A12");
 
-			expect(countryInfo).toBe(flags.SGP);
-		})
+			expect(countryInfo).toBe(TEST_AUS.flag);
+		});
 
 		it("should return empty string for incorrect arg", () => {
 			expect(findFlagUrlByCountryName("111")).toBe("");
@@ -68,21 +63,20 @@ describe("api", () => {
 	describe("findFlagUrlByNationality", () => {
 		describe("should return correct flag url for Australian", () => {
 			it("when argument in capital case", () => {
-				const countryInfo = findFlagUrlByNationality("Australian");
-
-				expect(countryInfo).toBe(flags.AUS);
+				const countryInfo = findFlagUrlByNationality(TEST_AUS.demonym);
+				expect(countryInfo).toBe(TEST_AUS.flag);
 			});
 
 			it("when argument in uppercase", () => {
-				const countryInfo = findFlagUrlByNationality("AUSTRALIAN");
+				const countryInfo = findFlagUrlByNationality(TEST_AUS.demonym.toUpperCase());
 
-				expect(countryInfo).toBe(flags.AUS);
+				expect(countryInfo).toBe(TEST_AUS.flag);
 			});
 
 			it("when argument in lowercase", () => {
-				const countryInfo = findFlagUrlByNationality("australian");
+				const countryInfo = findFlagUrlByNationality(TEST_AUS.demonym.toLowerCase());
 
-				expect(countryInfo).toBe(flags.AUS);
+				expect(countryInfo).toBe(TEST_AUS.flag);
 			});
 		});
 
@@ -96,15 +90,15 @@ describe("api", () => {
 	describe("findFlagUrlByIso2Code", () => {
 		describe("should return correct flag url for Australia", () => {
 			it("when argument in uppercase", () => {
-				const countryInfo = findFlagUrlByIso2Code("AU");
+				const countryInfo = findFlagUrlByIso2Code(TEST_AUS.iso2);
 
-				expect(countryInfo).toBe(flags.AUS);
+				expect(countryInfo).toBe(TEST_AUS.flag);
 			});
 
 			it("when argument in lowercase", () => {
-				const countryInfo = findFlagUrlByIso2Code("au");
+				const countryInfo = findFlagUrlByIso2Code(TEST_AUS.iso2.toLowerCase());
 
-				expect(countryInfo).toBe(flags.AUS);
+				expect(countryInfo).toBe(TEST_AUS.flag);
 			});
 		});
 
@@ -118,15 +112,15 @@ describe("api", () => {
 	describe("findFlagUrlByIso3Code", () => {
 		describe("should return correct flag url for Australia", () => {
 			it("when argument in uppercase", () => {
-				const countryInfo = findFlagUrlByIso3Code("AUS");
+				const countryInfo = findFlagUrlByIso3Code(TEST_AUS.iso3);
 
-				expect(countryInfo).toBe(flags.AUS);
+				expect(countryInfo).toBe(TEST_AUS.flag);
 			});
 
 			it("when argument in lowercase", () => {
-				const countryInfo = findFlagUrlByIso3Code("aus");
+				const countryInfo = findFlagUrlByIso3Code(TEST_AUS.iso3.toLowerCase());
 
-				expect(countryInfo).toBe(flags.AUS);
+				expect(countryInfo).toBe(TEST_AUS.flag);
 			});
 		});
 

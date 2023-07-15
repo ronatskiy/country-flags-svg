@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "outDir": "./dist",
+    "target": "ESNext",
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                          
+    "noUnusedLocals": true,                        
+    "noUnusedParameters": true,                       
+    "skipLibCheck": true                              
+  },
+  "exclude": ["dist", "node_modules"]
+}
