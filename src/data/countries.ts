@@ -215,7 +215,7 @@ const countries = [
 	},
 	{
 		name: "British Virgin Islands",
-		demonym: "Virgin Islander",
+		demonym: "British Virgin Islander",
 		flag: createUrl("/4/42/Flag_of_the_British_Virgin_Islands.svg"),
 		iso2: "VG",
 		iso3: "VGB",
@@ -320,7 +320,7 @@ const countries = [
 	},
 	{
 		name: "Cocos Islands",
-		demonym: "Taiwanese",
+		demonym: "Cocos Islandian",
 		flag: createUrl("/7/74/Flag_of_the_Cocos_(Keeling)_Islands.svg"),
 		iso2: "CC",
 		iso3: "CCK",
@@ -383,7 +383,7 @@ const countries = [
 	},
 	{
 		name: "Curaçao",
-		demonym: "Dutch",
+		demonym: "Curaçaoan",
 		flag: createUrl("/b/b1/Flag_of_Curaçao.svg"),
 		iso2: "CW",
 		iso3: "CUW",
@@ -404,7 +404,7 @@ const countries = [
 	},
 	{
 		name: "Democratic Republic of the Congo",
-		demonym: "Congolese",
+		demonym: "Democratic Republic Congolese",
 		flag: createUrl("/1/11/Flag_of_the_Democratic_Republic_of_the_Congo_(3-2).svg"),
 		iso2: "CD",
 		iso3: "COD",
@@ -432,7 +432,7 @@ const countries = [
 	},
 	{
 		name: "Dominican Republic",
-		demonym: "Dominican",
+		demonym: "Dominican Quisqueyan",
 		flag: createUrl("/9/9f/Flag_of_the_Dominican_Republic.svg"),
 		iso2: "DO",
 		iso3: "DOM",
@@ -706,7 +706,7 @@ const countries = [
 	},
 	{
 		name: "British Indian Ocean Territory",
-		demonym: "British",
+		demonym: "British Indian Oceanian",
 		flag: createUrl("/6/65/Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg"),
 		iso2: "IO",
 		iso3: "IOT",
@@ -811,7 +811,7 @@ const countries = [
 	},
 	{
 		name: "Kuwait",
-		demonym: "\tKuwaiti",
+		demonym: "Kuwaiti",
 		flag: createUrl("/a/aa/Flag_of_Kuwait.svg"),
 		iso2: "KW",
 		iso3: "KWT",
@@ -1701,7 +1701,7 @@ const countries = [
 	},
 	{
 		name: "Virgin Islands of the United States",
-		demonym: "Virgin Islander",
+		demonym: "American Virgin Islander",
 		flag: createUrl("/f/f8/Flag_of_the_United_States_Virgin_Islands.svg"),
 		iso2: "VI",
 		iso3: "VIR",
