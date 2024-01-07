@@ -181,7 +181,7 @@ const countries = [
 	{
 		name: "Bolivia",
 		demonym: "Bolivian",
-		flag: createUrl("/5/5b/Bolivia_Flag.svg"),
+		flag: createUrl("/d/de/Flag_of_Bolivia_%28state%29.svg"),
 		iso2: "BO",
 		iso3: "BOL",
 	},
@@ -405,7 +405,7 @@ const countries = [
 	{
 		name: "Democratic Republic of the Congo",
 		demonym: "Democratic Republic Congolese",
-		flag: createUrl("/1/11/Flag_of_the_Democratic_Republic_of_the_Congo_(3-2).svg"),
+		flag: createUrl("/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg"),
 		iso2: "CD",
 		iso3: "COD",
 	},
@@ -657,7 +657,7 @@ const countries = [
 	{
 		name: "Holy See",
 		demonym: "Papal",
-		flag: createUrl("/0/00/Flag_of_the_Vatican_City.svg"),
+		flag: createUrl("/3/39/Flag_of_the_Vatican_City_%282023%E2%80%93present%29.svg"),
 		iso2: "VA",
 		iso3: "VAT",
 		altSpellings: ["Vatican"],
@@ -728,7 +728,7 @@ const countries = [
 	{
 		name: "Ireland",
 		demonym: "Irish",
-		flag: createUrl("/c/c0/Republic_of_Ireland_Flag.svg"),
+		flag: createUrl("/4/45/Flag_of_Ireland.svg"),
 		iso2: "IE",
 		iso3: "IRL",
 	},
@@ -819,7 +819,7 @@ const countries = [
 	{
 		name: "Kyrgyzstan",
 		demonym: "Kyrgyzstani",
-		flag: createUrl("/c/c7/Flag_of_Kyrgyzstan.svg"),
+		flag: createUrl("/3/31/Flag_of_Kyrgyzstan_%282023%29.svg"),
 		iso2: "KG",
 		iso3: "KGZ",
 	},
@@ -1253,7 +1253,7 @@ const countries = [
 	{
 		name: "Réunion",
 		demonym: "Réunionese",
-		flag: createUrl("/5/5a/Flag_of_Réunion.svg"),
+		flag: createUrl("/8/8e/Proposed_flag_of_Réunion_%28VAR%29.svg"),
 		iso2: "RE",
 		iso3: "REU",
 	},
@@ -1346,7 +1346,7 @@ const countries = [
 	{
 		name: "Sao Tome and Principe",
 		demonym: "São Toméan",
-		flag: createUrl("/4/4f/Flag_of_Sao_Tome_and_Principe.svg"),
+		flag: createUrl("/0/0a/Flag_of_São_Tomé_and_Príncipe.svg"),
 		iso2: "ST",
 		iso3: "STP",
 	},
