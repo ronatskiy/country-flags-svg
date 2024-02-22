@@ -1176,7 +1176,7 @@ const countries = [
 	{
 		name: "Palestine",
 		demonym: "Palestinian",
-		flag: createUrl("/f/f4/Palestine_Flag.svg"),
+		flag: createUrl("/0/00/Flag_of_Palestine.svg"),
 		iso2: "PS",
 		iso3: "PSE",
 	},
