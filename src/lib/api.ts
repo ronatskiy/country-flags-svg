@@ -9,6 +9,7 @@ interface CountryData {
 	flag: string;
 	iso2: string;
 	iso3: string;
+	numeric: string;
 	altSpellings?: string[];
 }
 
@@ -43,6 +44,10 @@ export function findFlagUrlByIso2Code(iso2Code: string) {
 
 export function findFlagUrlByIso3Code(iso3Code: string) {
 	return findFlagUrlByPredicate(countries_to_search, ({ iso3 }) => isEqual(iso3, iso3Code));
+}
+
+export function findFlagUrlByNumericCode(numericCode: string) {
+	return findFlagUrlByPredicate(countries_to_search, ({ numeric }) => isEqual(numeric, numericCode));
 }
 
 export function getMapFlagUrlByIso3Code() {
